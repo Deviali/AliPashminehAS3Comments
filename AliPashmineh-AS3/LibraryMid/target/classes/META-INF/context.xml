@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource name="JDBC/ada_datasource" auth="Container"
+          type="javax.sql.DataSource"
+          maxTotal="100" maxIdle="50" maxWait="10000"
+          username="postgres"
+          password="root"
+          driverClassName="org.postgresql.Driver"
+          url="jdbc:postgresql://localhost:5432/LibraryMid"/>
+</Context>
